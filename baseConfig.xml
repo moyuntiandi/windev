@@ -1,0 +1,10 @@
+[建立目录链接是为了将C盘中的重要文件转到D盘，而访问的时候仍然可以通过C盘访问]
+mkdir D:\Users\%USERNAME%\.ssh
+xcopy /E C:\Users\%USERNAME%\.ssh D:\Users\%USERNAME%\.ssh
+rd /S /Q C:\Users\%USERNAME%\.ssh
+mklink /J C:\Users\%USERNAME%\.ssh D:\Users\%USERNAME%\.ssh
+ 
+mkdir D:\Users\%USERNAME%\.ivy2
+xcopy /E C:\Users\%USERNAME%\.ivy2 D:\Users\%USERNAME%\ivy2
+rd /S /Q C:\Users\%USERNAME%\.ivy2
+mklink /J C:\Users\%USERNAME%\.ivy2 D:\Users\%USERNAME%\.ivy2
