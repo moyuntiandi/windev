@@ -61,3 +61,6 @@ git mergetool
 点击beyong compare上方的叉叉,退出程序，继续下一个冲突文件
 提交修改,并push到服务器
 ~~~
+
+### GitLab
+[Gitlab开发模式](image/GitLab开发模式.png)
